@@ -17,5 +17,4 @@ window.addEventListener('keyup', (e) => {
    if (pressed.join('') === secretCode) {
       cornify_add();
    }
-
 });
