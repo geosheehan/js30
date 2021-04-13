@@ -11,6 +11,7 @@ divs.forEach(div => div.addEventListener('click', logText, {
    once: true // Listens for a click once and then unbinds itself
 }));
 
+// Use case could be a store Checkout that prevents duplicate orders from processing.
 button.addEventListener('click', () => {
    console.log('Click!!!');
 }, {
